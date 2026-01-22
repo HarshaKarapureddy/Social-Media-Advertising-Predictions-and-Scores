@@ -29,7 +29,7 @@ def main():
         "Engagement_Score": 0.15
     }
 
-    # goal of campaign, check readme for options for changing
+    # goal of campaign, check read me for options for changing
     goal = "Increase Sales" 
 
     # 4) Generate a LARGE pool so Pareto is meaningful
