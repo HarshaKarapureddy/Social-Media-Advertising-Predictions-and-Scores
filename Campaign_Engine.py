@@ -1,6 +1,7 @@
 # Project Name: Campaign Optimization Engine
 # Author: Harsha Karapureddy
 
+# IMPORTS
 import pandas as pd
 import numpy as np
 import random
@@ -13,6 +14,7 @@ from sklearn.metrics import mean_absolute_error
 import shap
 
 
+# CAMPAIGN ENGINE CLASS
 class CampaignEngine:
 
     def __init__(self):
