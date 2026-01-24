@@ -9,7 +9,7 @@ This project develops an end-to-end campaign recommendation engine for digital a
 Instead of predicting a *single* outcome, the system:  
 - Learns relationships between campaign configurations and multiple performance KPIs  
 - Explores hypothetical campaign setups under business constraints
-- Scores and ranks candidates using learned models  
+- Scores and ranks campaigns using learned models  
 - Filters results using Pareto optimality to expose tradeoffs  
 - Explains recommendations using SHAP (feature attribution)  
 
