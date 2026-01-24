@@ -33,7 +33,7 @@ These are parameters a stakeholder can control:
 
 #### Outputs (Predicted KPIs)
 
-For each candidate campaign, the engine predicts:  
+For each campaign campaign, the engine predicts:  
 - ROI  
 - Conversion Rate  
 - CTR  
@@ -86,7 +86,7 @@ project/
     This:
 
     - loads the saved models  
-    - generates candidate campaigns  
+    - generates campaign campaigns  
     - applies constraints  
     - ranks results  
     - filters via Pareto  
@@ -135,10 +135,10 @@ Constraints define what campaigns are allowed during optimization.
 
 ### How Optimization Works (High-Level)
 
-1) *Candidate Generation*  - Thousands of hypothetical campaigns are randomly sampled within constraints.  
+1) *campaign Generation*  - Thousands of hypothetical campaigns are randomly sampled within constraints.  
 
 2) *ML Scoring*  
-Each candidate is scored using trained ML models for:
+Each campaign is scored using trained ML models for:
     - ROI  
     - Conversion Rate  
     - CTR  
